@@ -79,6 +79,9 @@ h2{
 #menu >ul >li:nth-child(1){
 		background-color: rgba(0,0,0,0.7);
 }
+#search {
+	position: relative;
+}
 #search >div{
 	height: 30px;
 	width: 220px;
@@ -213,13 +216,34 @@ h2{
 }
 #end {
 	width: 100%;
-	height: 500px;
+	height: 200px;
 	background-color: transparent;
 }
-footer{
-	width: 100%;
-	height: 500px;
-	background: #ffffff url(logo.png) no-repeat center center;
-	background-size: 200px;
+#connectHTML{
+	margin-top: 30px;
+}
+#connectHTML p{
+	line-height: 30px;
+	margin: 15px 0px;
+	padding-left:  20px;
+}
+pre{
+	margin: 30px;
+	background-color: #ddd;
+}
+#html1{
+	background-color: #DDE4E9;
+	border-left: 4px solid #558ABB;
 
+}
+#html2 span{
+	color: red;
+}
+#html3 >div{
+	background-color: #DDFFDD;
+	border-left: 5px solid #4CAF50;
+
+}
+#html3 ul{
+	margin-left: 40px;
 }
